@@ -1,27 +1,74 @@
-# FormsReativos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+<div >
+  <img src="src/assets/img/AluraBooksBanner.png" width="1000px">
+</div>
 
-## Development server
+<p align="center">
+	<a href="https://www.linkedin.com/in/wesley-andrade/">	
+		<img src="https://img.shields.io/static/v1?label=&message=WesleyAndrade&color=199ffc&style=flat&logo=linkedin"/>
+	</a>
+	<a href="https://choosealicense.com/licenses/mit/">	
+		<img src="https://img.shields.io/static/v1?label=License&message=MIT&color=199ffc&style=flat"/>
+	</a>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<p align="center">
+  <a href="#project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#page_with_curl-license">License</a>
+</p>
 
-## Code scaffolding
+## Project
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O Alura Books é um projeto concebido pela  <a href="https://www.alura.com.br/"> **Alura** </a> com o objetivo de desenvolver uma página web utilizando Angular que seja um formulário para cadastrar usuários com todas as validações.
 
-## Build
+Assuntos abordados:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- [x] Formulário orientado a template
+- [x] FormsModule e suas diretivas
+- [x] Validações padrões
+- [x] Diretivas validadoras
+- [x] Validação assincrona com uso da [API ViaCEP](https://viacep.com.br/) 
 
-## Running unit tests
+## Layout
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<div style="display: flex; flex-direction: 'row'; align-items: 'center';">
+	<img src="src/assets/img/screenshot-home.png" width="1000px">
+  <img src="src/assets/img/screenshot-home-full.png" width="1000px">
+  <img src="src/assets/img/screenshot-success.png" width="1000px">
+</div>
 
-## Running end-to-end tests
+## Technologies
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- [Angular](https://angular.io/)
+- [API ViaCEP](https://viacep.com.br/) 
+  
+## Installation
 
-## Further help
+#### Clone the Repository
+```bash
+git clone https://github.com/WesleyReboucas/alura-books.git
+cd alura-books/
+npm i
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### Project
+```bash
+cd alura-books/
+npm start
+```
+
+## :page_with_curl: License
+
+<div>
+  This project is under the MIT license.   
+</div>
+<a href="https://choosealicense.com/licenses/mit/">
+	<img src="https://img.shields.io/static/v1?label=License&message=2021&color=A31F34&style=flat"/>
+</a>
+
+---
+
+Made with ♥ by Wesley Rebouças
